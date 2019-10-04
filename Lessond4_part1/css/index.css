@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+.unit{
+    display: inline-block;
+    margin: 55px 0 0 0;
+    width: 33%;
+    font-size: 0;
+}
+h3{
+    position: relative;
+    margin-bottom: 22px;
+    padding-top: 84px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+}
+p{
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 18px;
+}
+h3:before{
+    position: absolute;
+    content: "";
+    padding: 12px 11px;
+    top: 0;
+    left: 120px;
+    width: 50px;
+    height: 46px;
+    border: 1px solid #2a69a6;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h3:hover:before{
+    background-color: #2a69a6;
+}
+.tablet:before{
+    background-image: url("../images/tablet-blue.png");
+}
+.tablet:hover:before{
+    background-image: url("../images/tablet-white.png");
+}
+.settings:before{
+    background-image: url("../images/settings-blue.png");
+}
+.settings:hover:before{
+    background-image: url("../images/settings-white.png");
+}
+.dashboard:before{
+     background-image: url("../images/dashboard-blue.png");
+}
+.dashboard:hover:before{
+    background-image: url("../images/dashboard-white.png");
+}
